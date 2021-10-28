@@ -27,6 +27,6 @@ workflows:
     jobs:
       -welcome/run
       - print_myvalue
-      - print_world:
+      - print_myvalue:
           requires:
             - print_myvalue
